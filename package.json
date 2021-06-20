@@ -22,6 +22,7 @@
     "browser-sync-webpack-plugin": "^2.3.0",
     "dir-archiver": "^1.1.1",
     "node-sass": "^4.14.1",
+    "postcss-nesting": "^8.0.1",
     "rtlcss": "^2.5.0"
   },
   "rtlcssConfig": {
@@ -49,6 +50,7 @@
   },
   "main": "index.js",
   "dependencies": {
+    "react-jss": "^10.6.0",
     "ts-loader": "8.2.0"
   }
 }

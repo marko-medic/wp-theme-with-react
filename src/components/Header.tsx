@@ -1,5 +1,3 @@
-import './header.scss';
-
 import * as React from 'react';
 
 function Header({ text }: { text: string }) {

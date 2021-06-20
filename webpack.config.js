@@ -40,6 +40,7 @@ module.exports = {
   },
   plugins: [
     ...defaultConfig.plugins,
+
     new BrowserSyncPlugin({
       files: "**/*.php",
       proxy: "http://exampleproject.local", // your dev server here
